@@ -64,9 +64,6 @@ contract CrowdSale is Owner {
     // determains if token can be bought (initial value is false)
     bool public saleActive;
     
-     //refund allowd ? 
-    bool public refundable;
-    
     // unix timestamp : time when tokens can be withdrawn 
     uint256 public tokenLock;
     
